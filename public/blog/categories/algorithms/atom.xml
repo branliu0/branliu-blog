@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Brandon Liu]]></title>
-  <link href="http://branliu.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: algorithms | Brandon Liu]]></title>
+  <link href="http://branliu.com/blog/categories/algorithms/atom.xml" rel="self"/>
   <link href="http://branliu.com/"/>
   <updated>2013-05-31T18:01:57-04:00</updated>
   <id>http://branliu.com/</id>
@@ -93,7 +93,7 @@ instead of a real linked list not only because it doesn&rsquo;t change the core 
 the algorithm and it saves time, but also because it improves clarity and
 avoids possible bugs in dealing with linked lists.</p>
 
-<figure class='code'><figcaption><span>list_lunacy.rb </span></figcaption>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>list_lunacy.rb </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -112,35 +112,37 @@ avoids possible bugs in dealing with linked lists.</p>
 <span class='line-number'>16</span>
 <span class='line-number'>17</span>
 <span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
 </pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">get_random_node</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
 </span><span class='line'>  <span class="n">node</span> <span class="o">=</span> <span class="kp">nil</span>
-</span><span class='line'>  <span class="n">arr</span><span class="o">.</span><span class="n">each_with_index</span> <span class="k">do</span> <span class="o">|</span><span class="n">el</span><span class="p">,</span> <span class="n">i</span><span class="o">|</span>
-</span><span class='line'>    <span class="k">if</span> <span class="nb">rand</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="c1"># returns true with probability 1/i</span>
-</span><span class='line'>      <span class="n">node</span> <span class="o">=</span> <span class="n">el</span>
-</span><span class='line'>    <span class="k">end</span>
-</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>  <span class="n">arr</span><span class="o">.</span><span class="n">each_with_index</span> <span class="k">do</span> <span class="o">|</span><span class="n">el</span><span class="p">,</span> <span class="n">i</span><span class="o">|&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;pre&gt;&lt;code&gt;if rand(i+1) == 0 # returns true with probability 1/i</span>
+</span><span class='line'>  <span class="n">node</span> <span class="o">=</span> <span class="n">el</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'><span class="o">&lt;</span><span class="sr">/code&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>  <span class="k">end</span>
 </span><span class='line'>  <span class="n">node</span>
-</span><span class='line'><span class="k">end</span>
+</span><span class='line'><span class="k">end</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
 </span><span class='line'>
-</span><span class='line'><span class="n">a</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="o">.</span><span class="n">.</span><span class="o">.</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">to_a</span>
-</span><span class='line'><span class="n">count</span> <span class="o">=</span> <span class="o">[</span><span class="mi">0</span><span class="o">]</span> <span class="o">*</span> <span class="n">a</span><span class="o">.</span><span class="n">size</span>
+</span><span class='line'><span class="sr">&lt;p&gt;a = (0&amp;hellip;10).to_a</span>
+</span><span class='line'><span class="sr">count = [0] * a.size&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
 </span><span class='line'>
-</span><span class='line'><span class="mi">1_000_000</span><span class="o">.</span><span class="n">times</span> <span class="k">do</span>
+</span><span class='line'><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="mi">1_000_000</span><span class="o">.</span><span class="n">times</span> <span class="k">do</span>
 </span><span class='line'>  <span class="n">count</span><span class="o">[</span><span class="n">get_random_node</span><span class="p">(</span><span class="n">a</span><span class="p">)</span><span class="o">]</span> <span class="o">+=</span> <span class="mi">1</span>
-</span><span class='line'><span class="k">end</span>
+</span><span class='line'><span class="k">end</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
 </span><span class='line'>
-</span><span class='line'><span class="nb">p</span> <span class="n">count</span>
-</span></code></pre></td></tr></table></div></figure>
+</span><span class='line'><span class="sr">&lt;p&gt;p count</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-
-
-
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>./list_lunacy.rb
 </span><span class='line'><span class="o">[</span>100061, 100070, 100450, 99472, 99986, 99762, 100038, 99957, 100092, 100112<span class="o">]</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>This data yields a mean of 100,000 and a <a href="http://en.wikipedia.org/wiki/Standard_error">standard
 error</a> of 0.2519,
@@ -226,93 +228,6 @@ this reservoir sampling problem and interesting extensions, such as the
 weighted reservoir sampling problem and the distributed reservoir sampling
 problem here: <a href="http://gregable.com/2007/10/reservoir-sampling.html.">http://gregable.com/2007/10/reservoir-sampling.html.</a> All very
 interesting things to think about.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Education for a Successful Entrepreneur]]></title>
-    <link href="http://branliu.com/blog/2011/10/23/the-education-for-a-successful-entrepreneur/"/>
-    <updated>2011-10-23T17:46:00-04:00</updated>
-    <id>http://branliu.com/blog/2011/10/23/the-education-for-a-successful-entrepreneur</id>
-    <content type="html"><![CDATA[<p>I spend a lot of time thinking about how I can make the best use of my time,
-given my circumstances and where I am in life, and one of the most important
-things that I&rsquo;ve had to think about is the division of time between school and
-entrepreneurship. Given that I&rsquo;m passionate about entrepreneurship and deeply
-involved on campus, it would make sense for me to be spending much of my free
-time working on projects, generating ideas, and practicing entrepreneurship.
-After all, school is a wonderful time to work on a startup, because you don&rsquo;t
-need to be making a salary, you have so many talented and ambitious peers, and
-in the worst case of your startup failing, you can always fall back to your
-schoolwork.</p>
-
-<p>But this semester, I&rsquo;ve made a deliberate effort to cut down on my projects and
-entrepreneurial activities in order to focus on schoolwork. I&rsquo;ve thought a lot
-and there are many reasons why I&rsquo;ve made this decision to focus more on
-schoolwork, and one of those reasons is that I believe entrepreneurship is
-nothing more than a means to an end, and not an end in itself, as many think.</p>
-
-<!-- more -->
-
-
-<p>What is entrepreneurship? I love the practice of starting off these
-definitional discussions with a Wikipedia quote.</p>
-
-<blockquote><p>Entrepreneurship is the act of being an entrepreneur, which can be defined as<br/>&#8220;one who undertakes innovations, finance and business acumen in an effort to<br/>transform innovations into economic goods&#8221;.</p></blockquote>
-
-
-<p>Although not everyone may agree with this precise definition, at least it
-serves to lend some concreteness to this notion of entrepreneurship that we are
-discussing. But anyway, a precise definition is not necessary for what I want
-to explore here.</p>
-
-<p>So, given this definition, what does an entrepreneur need to know in order to
-be successful? Yes, as according to Wikipedia&rsquo;s definition, business and
-financial acumen are indeed needed. This is where many people see
-entrepreneurship start and end: the business skills of building a product,
-positioning yourself to a market, and growing a company as well as the
-financial skills of raising money, managing capital, and turning profits. These
-are all indeed the skills required of any competent entrepreneur, but I believe
-that they are not the ones that lie at the heart of entrepreneurship. Just as
-Disney may be incredible at designing amusement parks, creating animations, and
-composing music, all those skills are secondary to what lies at the heart of
-what Disney does and why it is so successful: making people happy by delivering
-a magical experience.</p>
-
-<p>If you are without a deep understanding the core of what you want to do and how
-to do it, all the peripheral skills fall to the wayside and become meaningless.
-And so I believe that becoming a successful entrepreneur isn&rsquo;t just about
-attending workshops on raising your seed round of funding or mastering the art
-of the pitch. The heart of entrepreneurship lies in innovation, in discovering
-and understanding a problem that is deeply important to people to society. It
-lies in having the foresight and vision to see the world differently and in
-having the domain skills and expertise to forge the road ahead to create the
-future you see. Every entrepreneur is passionate about a different problem and
-has deep expertise in what they&rsquo;re working on, which is why there is no
-entrepreneurial class or conference or forum out there that can tell you what
-sort of innovation you should be working on and how you&rsquo;ll succeed. Only you
-can find that on your own.</p>
-
-<p>But that is what an education is for. You dive deep into a domain so that
-you&rsquo;re prepared to be a leader in your field and to see what it&rsquo;s like to be at
-the edge of human knowledge. You study history (not necessarily the history of
-civilizations, but perhaps the history of other things, like technology) and
-learn about the past so that you may better see into the future, because you
-discover that history repeats itself. You study a breadth of subjects to know
-more about the world we live in and you learn from the innovations in every
-field because oftentimes the best innovations come from somewhere outside your
-domain. You challenge yourself by studying hard theoretical subjects like math
-or philosophy not for their applications, but because the intellectual rigor
-will train your mind to be learn quickly, process rapidly, and see a bit
-further into the future by understanding the implications of all that you are
-exposed to.</p>
-
-<p>This is why an education is important, especially for those who wish to be
-successful in entrepreneurship and create something truly innovative &ndash;
-something that requires foresight, knowledge, and lots of hard work. The other
-skills have their place and their time to be learned, but you must focus on
-what is important first. Successful entrepreneurs aren&rsquo;t lucky; they know
-exactly what they are doing and they&rsquo;ve prepared for it, which is why they
-succeed.</p>
 ]]></content>
   </entry>
   
