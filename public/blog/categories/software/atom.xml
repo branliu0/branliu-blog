@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: software | Brandon Liu]]></title>
+  <link href="http://branliu.com/blog/categories/software/atom.xml" rel="self"/>
+  <link href="http://branliu.com/"/>
+  <updated>2013-05-31T18:08:24-04:00</updated>
+  <id>http://branliu.com/</id>
+  <author>
+    <name><![CDATA[Brandon Liu]]></name>
+    <email><![CDATA[brandon.k.liu@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Organizing your .vimrc]]></title>
+    <link href="http://branliu.com/blog/2012/05/14/organizing-your-vimrc/"/>
+    <updated>2012-05-14T18:06:00-04:00</updated>
+    <id>http://branliu.com/blog/2012/05/14/organizing-your-vimrc</id>
+    <content type="html"><![CDATA[<p>Most .vimrc files that I’ve seen are quite long and unwieldy, often extending
+to upwards of 300 lines of code. The .vimrc becomes a mess of code as it is
+built up over the years, just a few lines at a time. Many people try to
+resolve this issue by breaking the .vimrc down into sections, often with the
+help of comments or fold markers. This makes it much easier to read, but it
+isn’t a perfect solution. I still find myself having to scroll around the
+.vimrc to find the line of I want to change or to find a place I can insert
+a new line of vimscript.</p>
+
+<p>There’s a much better solution for organizing the .vimrc, thanks to the
+ability to source other vimscripts from within a vimscript. I’ve broken up my
+own .vimrc file into 8 smaller files, and I include them into my main .vimrc
+file by using the source function. Here’s what it looks like:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='vim'><span class='line'><span class="k">set</span> <span class="nb">nocompatible</span>
+</span><span class='line'>behave <span class="k">xterm</span>
+</span><span class='line'><span class="k">filetype</span> plugin indent <span class="k">on</span>
+</span><span class='line'><span class="nb">syntax</span> <span class="k">on</span><span class="p">&lt;</span>/<span class="k">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="k">p</span><span class="p">&gt;</span>source $HOME<span class="sr">/.vim/</span>vimrc/filetypes.<span class="k">vim</span>
+</span><span class='line'>source $HOME<span class="sr">/.vim/</span>vimrc/looks.<span class="k">vim</span>
+</span><span class='line'>source $HOME<span class="sr">/.vim/</span>vimrc/mappings.<span class="k">vim</span>
+</span><span class='line'>source $HOME<span class="sr">/.vim/</span>vimrc/misc.<span class="k">vim</span>
+</span><span class='line'>source $HOME<span class="sr">/.vim/</span>vimrc/plugin_configs.<span class="k">vim</span>
+</span><span class='line'>source $HOME<span class="sr">/.vim/</span>vimrc/plugins.<span class="k">vim</span>
+</span><span class='line'>source $HOME<span class="sr">/.vim/</span>vimrc/settings.<span class="k">vim</span>
+</span><span class='line'>source $HOME<span class="sr">/.vim/</span>vimrc<span class="sr">/spelling.vim&lt;/</span><span class="k">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="k">p</span><span class="p">&gt;</span>&amp;ldquo; Source <span class="k">a</span> local vimrc <span class="k">if</span> it exists
+</span><span class='line'><span class="k">if</span> filereadable<span class="p">(</span>expand<span class="p">(</span>&amp;rdquo;$HOME/.vimrc.local&quot;<span class="p">))</span>
+</span><span class='line'>  source $HOME/.vimrc.local
+</span><span class='line'><span class="k">endif</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Now each of my files are much smaller and easier to manage! It’s also quite
+simple to navigate to each of these files. I’ve set up <leader>; to open up
+a tab with the .vimrc, and then I can use vim’s handy gf action to open up the
+file given by the filename under the cursor. I’ve included a nice way to allow
+for local .vimrc additions as well.</p>
+
+<p>If you’re interested, check out my vimfiles on github here:
+<a href="https://github.com/thenovices/dotfiles">https://github.com/thenovices/dotfiles</a></p>
+]]></content>
+  </entry>
+  
+</feed>
