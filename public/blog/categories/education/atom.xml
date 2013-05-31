@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Brandon Liu]]></title>
-  <link href="http://branliu.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: education | Brandon Liu]]></title>
+  <link href="http://branliu.com/blog/categories/education/atom.xml" rel="self"/>
   <link href="http://branliu.com/"/>
   <updated>2013-05-31T17:51:18-04:00</updated>
   <id>http://branliu.com/</id>
@@ -41,8 +41,7 @@ nothing more than a means to an end, and not an end in itself, as many think.</p
 <p>What is entrepreneurship? I love the practice of starting off these
 definitional discussions with a Wikipedia quote.</p>
 
-<blockquote><p>Entrepreneurship is the act of being an entrepreneur, which can be defined as<br/>&#8220;one who undertakes innovations, finance and business acumen in an effort to<br/>transform innovations into economic goods&#8221;.</p></blockquote>
-
+<p><blockquote><p>Entrepreneurship is the act of being an entrepreneur, which can be defined as<br/>&ldquo;one who undertakes innovations, finance and business acumen in an effort to<br/>transform innovations into economic goods&rdquo;.</p></blockquote></p>
 
 <p>Although not everyone may agree with this precise definition, at least it
 serves to lend some concreteness to this notion of entrepreneurship that we are
