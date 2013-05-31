@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: biotech | Brandon Liu]]></title>
+  <link href="http://branliu.com/blog/categories/biotech/atom.xml" rel="self"/>
+  <link href="http://branliu.com/"/>
+  <updated>2013-05-31T18:05:39-04:00</updated>
+  <id>http://branliu.com/</id>
+  <author>
+    <name><![CDATA[Brandon Liu]]></name>
+    <email><![CDATA[brandon.k.liu@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How the 'Team' page differs in Biotech vs Web Startups]]></title>
+    <link href="http://branliu.com/blog/2012/05/18/how-the-team-page-differs-in-biotech-vs-web-startups/"/>
+    <updated>2012-05-18T18:04:00-04:00</updated>
+    <id>http://branliu.com/blog/2012/05/18/how-the-team-page-differs-in-biotech-vs-web-startups</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been spending more time exploring the biotechnology startup world lately,
+and it&rsquo;s quite interesting to see its many differences from the consumer web
+startup world that I&rsquo;ve become familiar with. In particular, I&rsquo;ve noticed many
+ways in which their executive teams differ in their structure and presentation
+on websites.</p>
+
+<p>In this post, I&rsquo;m going to list some observations that I&rsquo;ve made, and then give
+some explanations that will hopefully account for these observations. I&rsquo;ve
+picked a few startup team pages that I&rsquo;ll be basing my observations on.</p>
+
+<!-- more -->
+
+
+<p>Biotech:</p>
+
+<ul>
+<li><a href="http://foundationmedicine.com/about-management-team.php">http://foundationmedicine.com/about-management-team.php</a></li>
+<li><a href="http://h3biomedicine.com/about_us/leadership.asp">http://h3biomedicine.com/about_us/leadership.asp</a></li>
+<li><a href="http://cadencebiomedical.com/about-us/management-team/">http://cadencebiomedical.com/about-us/management-team/</a></li>
+<li><a href="http://www.spiralgenetics.com/team">http://www.spiralgenetics.com/team</a></li>
+</ul>
+
+
+<p>Web:</p>
+
+<ul>
+<li><a href="http://asana.com/team">http://asana.com/team</a></li>
+<li><a href="http://pinterest.com/about/team/">http://pinterest.com/about/team/</a></li>
+<li><a href="http://learnboost.com/info/about/">http://learnboost.com/info/about/</a></li>
+<li><a href="http://stripe.com/about">http://stripe.com/about</a></li>
+<li><a href="http://www.qwiki.com/about-us">http://www.qwiki.com/about-us</a></li>
+</ul>
+
+
+<h2>Observations</h2>
+
+<ol>
+<li><p>Biotech startups have &lsquo;heftier&rsquo; titles. Web startups have much simpler
+titles or no titles at all. The biotech startups have multiple C-level
+executives, SVPs, VPs, and Directors. On the other hand, if you look at the web
+startups, you sometimes can&rsquo;t even tell who the founders are.</p></li>
+<li><p>Biotech startups show only the top-level executive and management teams. Web
+startups tend to show their entire team, and they don&rsquo;t differentiate between
+different roles. Technial and non-technical roles are all placed equally.</p></li>
+<li><p>The images of all the biotech team members are taken in formal attire,
+whereas all of the web startup team pictures are in informal clothing.</p></li>
+<li><p>Biotech startups heavily emphasize the advanced degrees and educational
+background of their management team. Most web startup team members don&rsquo;t have
+advanced degrees, and educational background is often left out.</p></li>
+</ol>
+
+
+<h2>The Differences</h2>
+
+<ol>
+<li><p>The biggest difference between biotech and web startups that results in
+these observations is size. In general, biotech startups need a lot more
+manpower and funding than web startups to get off the ground. As a result,
+these larger biotech startups require a larger management team to deal with a
+multidisciplinary team of scientists, engineers, and business people.</p></li>
+<li><p>The problems that most biotech startups are deeper and more complex than
+what the <strong>average</strong> web startup is working on. It seems that PhDs are
+generally necessary to make the scientific breakthrough that will drive the
+growth of a biotech startup. In contrast, many brilliant software engineers and
+entrepreneurs don&rsquo;t even have a college degree! The average person probably
+won&rsquo;t understand what a biotech startup is working on, but will have a pretty
+good grasp of what most web startups are working on.</p></li>
+<li><p>As a result, the average age at a biotech startup is slightly older, as most
+have completed advanced degree programs. This seems to lead to a slightly more
+formal environment.</p></li>
+<li><p>Nearly all biotech startups have tight relationships with academic
+institutions and large biomedical or pharmaceutical corporations, and as a
+result, seem to be influenced by a more bureaucratic kind of culture.</p></li>
+</ol>
+
+
+<p>As I&rsquo;ve been learning about this biotech space, it&rsquo;s been interesting to notice
+its differences from the web startup world. I&rsquo;ve only been looking into the
+biotech startup for a few months now, and so I don&rsquo;t really know the
+intricacies of how the biotech startup space looks like. As I continue to
+explore this space further, I&rsquo;m sure I&rsquo;ll continue to learn more and understand
+better the influential factors that make biotech a very different space than
+the Silicon Valley startup culture.</p>
+]]></content>
+  </entry>
+  
+</feed>
