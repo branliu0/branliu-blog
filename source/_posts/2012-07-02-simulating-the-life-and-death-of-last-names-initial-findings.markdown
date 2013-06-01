@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Simulating the Life and Death of Last Names: Initial Findings"
-date: 2013-05-31 21:50
+date: 2012-07-02 21:50
 comments: true
 categories: 
 ---
