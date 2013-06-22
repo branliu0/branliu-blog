@@ -4,7 +4,7 @@
   <title><![CDATA[Brandon Liu]]></title>
   <link href="http://branliu.com/atom.xml" rel="self"/>
   <link href="http://branliu.com/"/>
-  <updated>2013-05-31T22:53:37-04:00</updated>
+  <updated>2013-06-21T21:08:36-04:00</updated>
   <id>http://branliu.com/</id>
   <author>
     <name><![CDATA[Brandon Liu]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ötzi the Iceman]]></title>
+    <link href="http://branliu.com/blog/2013/06/21/otzi-the-iceman/"/>
+    <updated>2013-06-21T20:55:00-04:00</updated>
+    <id>http://branliu.com/blog/2013/06/21/otzi-the-iceman</id>
+    <content type="html"><![CDATA[<p>A few week ago, I happened upon the Wikipedia entry for <a href="http://en.wikipedia.org/wiki/%C3%96tzi_the_Iceman">Ötzi the
+Iceman</a>, Europe&rsquo;s oldest natural human mummy that dates back to 3,300
+BC. I was absolutely fascinated by the depth of analysis that researchers had
+produced on this mummy. Scientists were able to determine Ötzi&rsquo;s age, the
+contents of his last two meals, his profession, his lifestyle, and even his
+cause of death.</p>
+
+<blockquote><p>High levels of both copper particles and arsenic were found in Ötzi&rsquo;s hair.
+This, along with Ötzi&rsquo;s copper axe which is 99.7% pure copper, has led
+scientists to speculate that Ötzi was involved in copper smelting.</p>
+
+<p>By examining the proportions of Ötzi&rsquo;s tibia, femur and pelvis, Christopher
+Ruff has determined that Ötzi&rsquo;s lifestyle included long walks over hilly
+terrain.</p></blockquote>
+
+<!-- more -->
+
+
+<p>Furthermore, it&rsquo;s even more fascinating to read about the tools and equipment
+that Ötzi had on him during his death.</p>
+
+<blockquote><p>Other items found with the Iceman were a copper axe with a yew handle,
+a flint-bladed knife with an ash handle and a quiver of 14 arrows with
+viburnum and dogwood shafts&hellip;. In addition, among Ötzi&rsquo;s possessions were
+berries, two birch bark baskets, and two species of polypore mushrooms with
+leather strings through them. One of these, the birch fungus, is known to
+have antibacterial properties, and was probably used for medicinal purposes.
+The other was a type of tinder fungus, included with part of what appeared
+to be a complex firestarting kit. The kit featured pieces of over a dozen
+different plants, in addition to flint and pyrite for creating sparks.</p></blockquote>
+
+<p>I am simply blown away by the sophistication of our modern-day research tools.
+And at the same time I marvel at the ingenuity of humans; that we were such
+complex and intelligent beings even thousands of years ago. Where will we be
+in another 5,000 years from now?</p>
+
+<p>Source: <a href="http://en.wikipedia.org/wiki/%C3%96tzi_the_Iceman">Wikipedia</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Which Non-Technical Classes at Harvard Should a Technical Major Really Consider Taking?]]></title>
