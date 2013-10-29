@@ -85,3 +85,8 @@ effective in improving social outcomes, seem to be cheaper to run
 recipients), and most of all, respect the autonomy and agency of the poor to
 make their own decisions about their lives. I am eager to hear more about how
 the research in this area continues to progress.
+
+Update: David McKenzie on the World Bank Impact Evaluations blog has also
+posted [his thoughts][wb] on the report.
+
+[wb]: http://blogs.worldbank.org/impactevaluations/some-thoughts-give-directly-impact-evaluation
