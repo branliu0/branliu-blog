@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby '1.9.3'
+ruby '2.0.0'
 
 group :development do
   gem 'rake', '~> 0.9'
@@ -18,6 +18,7 @@ group :development do
   gem 'liquid', '~> 2.3.0'
   gem 'jekyll-scholar'
   gem 'directory_watcher', '1.4.1'
+  gem 'psych', '~> 2.0.5'
 end
 
 gem 'sinatra', '~> 1.4.2'
